@@ -418,3 +418,50 @@
 // document.write(total)
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// 15.3.- Escriu un programa, que donat una lletra que representa un dia de la setmana (l -
+//     dilluns, m - dimarts, x - dimecres, j - dijous, …) escrigui a la consola si el dia és laborable o
+//     festiu. Són laborables de dilluns a divendres. Fes servir la instrucció switch.
+
+
+    // let dia =prompt("Escribe una letra que represente el dia de la semana")
+
+    // switch (dia){
+      
+    //     case "l":
+    //     case "m":
+    //     case "x":
+    //     case "j":
+    //     case "d":
+    //         document.write("Laborable")
+    //         break
+    //     case "s":
+    //     case "g":
+    //         document.write("Festiu")
+    //         break
+    //     default:
+    //         document.write("Dia no valido")
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//     16.1.- Escriu, fent servir la instrucció for, un programa que escrigui a la consola 10 cops el
+// text “Estem fent bucles”. 
+
+
+
+for (let i=0, i<10,i++){
+
+    document.write
+
+
+
+}
+
+
+
+
+
+
+
+
+    }
