@@ -448,20 +448,79 @@
 // text “Estem fent bucles”. 
 
 
+// for (let i = 0; i < 10; i++) {
+//     document.write("Estem fent bucles </br>");
+    
+//   }
 
-for (let i=0, i<10,i++){
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-    document.write
+// 16.2.- Escriu, fent servir la instrucció for, un programa que escrigui a la consola tots els
+// nombres del 5 al 20.
 
 
+// let i = 0
 
+// for(i=2;i<51;i++){
+    
+    
+//     document.write(i + "</br>")
+    
+// }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+// 16.3.- Escriu un programa que, donat un nombre N, escrigui a la consola la suma de tots els
+// nombres entre 1 i N.
+
+
+// let a = parseInt(prompt("Escribe un numero"))
+// let b
+
+// for(b=1;b<a+1;b++){
+//     document.write(b + "</br>")
+// }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+// 16.4.- Escriu un programa que, donat un nombre N, escrigui a la consola el factorial
+// d’aquest nombre. El factorial és la multiplicació de tots els números entre 1 i N.
+
+
+// let N = parseInt(prompt("Introduce un numero"))
+// let resul=1
+
+//     for(let i=N ;i>1;i--){
+//         resul*=i
+
+// }
+//  document.write("El resultat es " + resul+ " total")
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// 16.5.- Escriu un programa que, donat dos números N i M (on N sempre serà menor que M)
+// // calculi la suma de tots els números entre N i M (ambdós inclosos).
+//  let mayor=parseInt(prompt("Introduce el numero grande"))
+//  let menor=parseInt(prompt("Introduce el numero prqueño"))
+//  let total=0
+//  for(let i=menor; i<mayor+1;i++){
+//     total+=i
+//  }
+//  document.write("El resultat es" + total + ". </br>")
+//  document.write("El resultat es" + total + ". </br>")
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// 16.6.- Escriu un programa que, donat un número N, calculi la suma de tots els números
+// parells entre 2 i N.
+
+let n = parseInt(prompt("Introduce un numero"))
+let total=0
+for( let i=2;i<=n;i+=2) {
+   
+    total+=i
+    document.write(total)
 }
+document.write("El resusltat es " + total + ".")
 
-
-
-
-
-
-
-
-    }
