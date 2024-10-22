@@ -523,6 +523,51 @@
 //     document.write(total)
 // }
 // document.write("El resusltat es " + total + ".")
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// 16.7.- Escriu un programa que, donat un número N, escrigui a la consola la taula de
+// multiplicar de N.
+
+
+// let a = parseInt(prompt("Escribe un numero y te saldra la tabla de multiplicar del 0 al 10"))
+// let l = 0
+// let resul=0
+// for (i=0;i<11;i++) {
+
+//     resul=a*l
+//     document.write(resul + "</br>")
+//     l++
+// }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// 16.8.- Escriu un programa que, donat un número N, escrigui a la consola tots els números
+// de N a 1 (per tant, en ordre descendent). Observa el que passa si N < 1
+
+// let a =parseInt(prompt("Introduce un numero"))
+// let num=a
+// for(let i=a;i>0;i--){
+    
+//     document.write(num + "</br>")
+//     num--
+
+// }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// 16.9.- Escriu un programa que donat un número N, escrigui N asteriscos (*)
+
+
+// let a=parseInt(prompt("Introduuce un numero: "))
+
+// for(let i =0;i<a;i++){
+
+
+//     document.write("*")
+
+// }
+
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // 16.10.- Escriu un programa que donat un número N, escrigui el següent dibuix (cas que el
@@ -542,22 +587,6 @@
 //     document.write("</br>")
 
 //     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -586,3 +615,17 @@
 //     totala=+nl// pasaamos el nuevo cadena a buero para sumarlo luego al total anterior              
 // }
 //     document.write("////" + total )
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// 17.1.- Escriu, fent servir la instrucció while, un programa que escrigui a la consola 10 cops el
+// text “Estem fent bucles”. 
+
+let a =0
+let n=0
+
+
+while(n<10){
+
+    console.log("Estamos haciendo bucles")
+}
