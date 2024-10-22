@@ -525,6 +525,43 @@
 // document.write("El resusltat es " + total + ".")
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+// 16.10.- Escriu un programa que donat un número N, escrigui el següent dibuix (cas que el
+//     número introduït sigui 5).
+//     *
+//     **
+//     ***
+//     ****
+//     *****
+
+
+// let num=parseInt(prompt("Introduce el numero:"))
+
+// for(let i=0;i<num+1;i++){
+//     for(let n=0;n<i;n++){
+//         document.write("*")}
+//     document.write("</br>")
+
+//     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 // 16.11.- Escriu un programa que donat dos números N i M, crei i sumi una sèrie com la
 // següent:
 // Si N ← 2 i M ← 5
@@ -534,18 +571,18 @@
 
 
 
-let n =parseInt(prompt("Introduce el numero"))
-let c =parseInt(prompt("Introduce la cantidad de series"))
-let nl= n + ""
-let nu= n + ""
-let total=n
-let totala=0
+// let n =parseInt(prompt("Introduce el numero"))
+// let c =parseInt(prompt("Introduce la cantidad de series"))
+// let nl= n + ""
+// let nu= n + ""
+// let total=n
+// let totala=0
 
-for(let i=0;i<c;i++){
+// for(let i=0;i<c;i++){
     
-    total=total+totala 
-    document.write(nl + "___")  // la cadena //  2,
-    nl=nu+nl//actualizacion de la cadena //22,
-    totala=+nl// pasaamos el nuevo cadena a buero para sumarlo luego al total anterior              
-}
-    document.write("////" + total )
+//     total=total+totala 
+//     document.write(nl + "___")  // la cadena //  2,
+//     nl=nu+nl//actualizacion de la cadena //22,
+//     totala=+nl// pasaamos el nuevo cadena a buero para sumarlo luego al total anterior              
+// }
+//     document.write("////" + total )
