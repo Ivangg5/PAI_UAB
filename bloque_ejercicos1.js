@@ -515,12 +515,37 @@
 // 16.6.- Escriu un programa que, donat un número N, calculi la suma de tots els números
 // parells entre 2 i N.
 
-let n = parseInt(prompt("Introduce un numero"))
-let total=0
-for( let i=2;i<=n;i+=2) {
+// let n = parseInt(prompt("Introduce un numero"))
+// let total=0
+// for( let i=2;i<=n;i+=2) {
    
-    total+=i
-    document.write(total)
-}
-document.write("El resusltat es " + total + ".")
+//     total+=i
+//     document.write(total)
+// }
+// document.write("El resusltat es " + total + ".")
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+// 16.11.- Escriu un programa que donat dos números N i M, crei i sumi una sèrie com la
+// següent:
+// Si N ← 2 i M ← 5
+// Sortida per consola:
+// 2 22 222 2222 22222
+// La suma de la sèrie és:24690 
+
+
+
+let n =parseInt(prompt("Introduce el numero"))
+let c =parseInt(prompt("Introduce la cantidad de series"))
+let nl= n + ""
+let nu= n + ""
+let total=n
+let totala=0
+
+for(let i=0;i<c;i++){
+    
+    total=total+totala 
+    document.write(nl + "___")  // la cadena //  2,
+    nl=nu+nl//actualizacion de la cadena //22,
+    totala=+nl// pasaamos el nuevo cadena a buero para sumarlo luego al total anterior              
+}
+    document.write("////" + total )
